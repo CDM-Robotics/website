@@ -1,17 +1,18 @@
 # Triton-Tech
 A static website for CDM's Robotics Team.
 
-# How To Edit (assumes you've been invited to the 'Triton-Tech' Github organization)
-1. Go to the main page of this repository (this project, 'Triton-Tech'/'Triton-Tech')
+# How To Edit (assumes you've been invited to the 'CDM-Robotics' Github organization)
+
+1. Go to the main page of this repository (https://github.com/CDM-Robotics/website')
 
 2. Fork this repository (top-right) to your Github account
 
 3. On your fork of this repo, go to the green 'Clone or Download' button and copy the link
 
 4. Go to Terminal in Mac or Command Prompt in Windows and change to your desired directory / folder
-  1. A directory is a folder, like 'Documents' or 'Summer Pics 2008'
-  2. For help, look up 'ls' and 'cd' commands
-  3. Your current directory is to the left of your type cursor in the command line
+   * A directory is a folder, like 'Documents' or 'Summer Pics 2008'
+   * For help, look up 'ls' and 'cd' commands
+   * Your current directory is to the left of your type cursor in the command line
 
 5. Type in your command line 'git clone [what you copied in step 3]', this will copy that repository to the folder you selected in step 4
 
@@ -23,6 +24,12 @@ A static website for CDM's Robotics Team.
 
 9. Type 'git push origin master'
 
+#Option 1:  The CDM-Robotics/website repo is linked to Heroku, but Automatic Deploy is not currently enabled.
+
+10. Log into the Heroku account, Go to the Deploy page, 'Manual Deploy' and click Deploy Branch
+
+#Option 2: ------
+
 10. Type 'git remote -v', you should see 'origin' and 'upstream'
   1. This shows the names and urls of the online repositories your folder is linked to
 
@@ -32,5 +39,7 @@ A static website for CDM's Robotics Team.
 
 12. Type 'git push heroku master', then submit your information for your Heroku account
   1. This pushes the changes to the Github repository connected to the website, and consequently changes the website
+
+  ---------------
   
-13. Go to www.tritontech6072.com to see your changes!
+Go to www.tritontech6072.com to see your changes!
