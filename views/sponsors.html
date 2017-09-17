@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -81,14 +81,7 @@
                     <li>
                         <a href="#">Sponsors</a>
                     </li>
-                    <li class="dropdown">
-                      <a href="#" id="donate" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Donate<span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                          <li><a data-toggle="modal" data-target="#myModal" href="">Corporate</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="http://www.gofundme.com/tritontech" target="_blank">Individual</a></li>
-                      </ul>
-                    </li>
+                    <li><a  id="donate" data-toggle="modal" data-target="#myModal" href="">Donate</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -104,16 +97,21 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h4 class="modal-title" id="myModalLabel">Instructions for Corporate Donors</h4>
+            <h4 class="modal-title" id="myModalLabel">Triton Tech Donation</h4>
           </div>
           <div class="modal-body">
-            Corporate donations go through CdM Boosters, as it allows for tax write-offs.
-            <br>
-            <br>
-            To target our specific club, please write <strong>Triton Tech Robotics</strong> in the <strong>Specific Designations</strong> section.
+              We are a 501c3 Charitable Organization and all donations are tax deductible.
+              <br />
+              <br />
+           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="ZRNBAMGTQFB52">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
           </div>
           <div class="modal-footer">
-            <button id="donate-button" type="button" class="btn btn-primary"><a href="http://cdmboosters.com/donate-any-amount" target="_blank">CONTINUE TO DONATION</a></button>
+            Thank you!
           </div>
         </div>
       </div>
