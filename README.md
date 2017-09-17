@@ -24,11 +24,11 @@ A static website for CDM's Robotics Team.
 
 9. Type 'git push origin master'
 
-#Option 1:  The CDM-Robotics/website repo is linked to Heroku, but Automatic Deploy is not currently enabled.
+# Option 1:  The CDM-Robotics/website repo is linked to Heroku, but Automatic Deploy is not currently enabled.
 
-10. Log into the Heroku account, Go to the Deploy page, 'Manual Deploy' and click Deploy Branch
+10. Log into the Heroku account, Go to the Deploy page, 'Manual Deploy' and click 'Deploy Branch''
 
-#Option 2: ------
+# Option 2: 
 
 10. Type 'git remote -v', you should see 'origin' and 'upstream'
   1. This shows the names and urls of the online repositories your folder is linked to
