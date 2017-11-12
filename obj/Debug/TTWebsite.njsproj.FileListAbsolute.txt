@@ -1,2 +1,4 @@
 C:\Users\David\Documents\Visual Studio 2017\Projects\TTWebsite\obj\Debug\TTWebsite.njsprojResolveAssemblyReference.cache
 C:\Users\David\Documents\Visual Studio 2017\Projects\TTWebsite\bin\Microsoft.NodejsTools.WebRole.dll
+D:\Documents\Visual Studio 2017\Projects\TTWebsite\obj\Debug\TTWebsite.njsprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\TTWebsite\bin\Microsoft.NodejsTools.WebRole.dll
