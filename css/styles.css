@@ -187,6 +187,7 @@ footer p {
         border: none;
         background: #fff;
         background: rgba(255,255,255,0.9);
+		background-color:#9bddff; /* Columbia Blue */
     }
 
     .nav>li>a {
